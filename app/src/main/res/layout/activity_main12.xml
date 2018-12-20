@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Main12Activity">
 
 
@@ -28,9 +29,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Muradiye Mah. Celal Bayar Üniversitesi Kampüsü Teknoloji Geliştirme Bölgesi İçi Merkezi Apt.No:22 - 202 YUNUSEMRE / MANİSA      +90 (236) 503 02 54"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -86,8 +87,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="153dp"
+        android:layout_height="115dp"
         android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -97,11 +98,14 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="wrap_content"
+        android:layout_width="366dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Sıcaklık ve Nem sensöründen gelen verilerin okunarak internet ortamındaki bulut veri alanı IoThook a verileri gönderir. Çalışabilmesi için 5V yeterlidir. Cihaz ilk çalıştırıldığında Wifi kurulumu gerçekleştirilerek ağa bağlantı sağlanır. Verilerin takibi web sayfası ve mobil uygulama üzerinden gerçekleştirilebilir."
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

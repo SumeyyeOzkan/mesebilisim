@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Main2Activity">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Muradiye Mah. Celal Bayar Üniversitesi Kampüsü Teknoloji Geliştirme Bölgesi İçi Merkezi Apt.No:22 - 202 YUNUSEMRE / MANİSA      +90 (236) 503 02 54"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -54,24 +55,30 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="369dp"
         android:layout_height="209dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
         android:text="Meşe Bilişim 2015 yılında Ankarada kurulmuş, 2017 senesinde Manisa Celal Bayar Üniversitesi Muradiye Kampüs içerisinde bulunan Teknokent e taşınarak Elektronik, Mekatronik, Yazılım, Yazılım Test, Donanım Test ve Bilişim Sistemleri alanlarında faaliyet göstermektedir. Kullandığımız teknoloji ve araçlar ile müşteri memnuniyetini en üst seviyede tutarak, yazılımda ve donanımda kalite vazgeçemiyeceğimiz ana hedefimizdir. Arduino, Raspberry Pi, SMD CODE, Mac OS, Windows, Android, Windows Phone, Selenium, Java, iOS, Python, Django, Git, Proteus, Eagle, PCB, Dizayn, Prototip, Android Studio, Eclipse, Virtual, C, C++ kullandığımız teknoloji ve araçlardır."
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="366dp"
         android:layout_height="113dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:text="İlk günkü heyecanımızı hiç kaybetmeden yeni şeyler denemeyi seven, meraklı, teknolojiyi takip eden, sosyal ağlar ile iyi geçinen, festival, eğitim, seminer ve kursları takip eden, üniversite gençliği ile çalışmayı seven, başarıya odaklanmış tecrübe ve bilgi aktarımı yapmayı ihmal etmeyen yeni nesil teknolojiler üreten yazılım eviyiz."
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>

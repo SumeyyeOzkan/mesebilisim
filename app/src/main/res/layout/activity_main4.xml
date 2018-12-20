@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Main4Activity">
 
 
@@ -42,9 +43,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Muradiye Mah. Celal Bayar Üniversitesi Kampüsü Teknoloji Geliştirme Bölgesi İçi Merkezi Apt.No:22 - 202 YUNUSEMRE / MANİSA      +90 (236) 503 02 54"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -86,27 +87,32 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Otonom fatura ve tahsilat aktarimi ile müşterilerin cari hareketlerini tek tuş ile hazirliyoruz. sahadaki çalişanin geçmiş fatura ve tahsilatlarini görmesini sağlayip bayi ile mutabakatsizlik durumunda gerekli bilgilere aninda ulaşmasini, istenildiği taktirde geçmişe dönük tahsilat makbuzu basimini sağlayarak tüm sorunlari ortadan kaldiriyoruz."
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toTopOf="@+id/button19"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="172dp"
-        android:layout_height="152dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="171dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.888"
         app:srcCompat="@drawable/resim1" />
 
 </android.support.constraint.ConstraintLayout>

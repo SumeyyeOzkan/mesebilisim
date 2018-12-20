@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Main8Activity">
 
     <Button
@@ -27,9 +28,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Muradiye Mah. Celal Bayar Üniversitesi Kampüsü Teknoloji Geliştirme Bölgesi İçi Merkezi Apt.No:22 - 202 YUNUSEMRE / MANİSA      +90 (236) 503 02 54"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -96,9 +97,13 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+        android:layout_width="366dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:text='İnternete bağlanan cihazlardan gelen verilerin takip edilmesi için geliştirdiğimiz "Sensör Takip Yazılımı" 2 adet sensör tipini desteklemektedir.   Sensör ve Veri tipleri;  Sıcaklık Nem ENNA-XX SENSÖR TAKIP CIHAZI ile uyumlu olan Sensör Takip Yazılımı Sıcaklık, Nem ve Tarih saat bilgilerini kayıt etmektedir. Firmanızın sunucu sistemine rahatça kurabileceğiniz kolay kurulum paketi ile sensörlerden gelen verileri canlı olarak izleyebilirsiniz.  Sensör Takip Yazılımı özellikleri;  Websocket desteği Sıcaklık sensörü okuma, takip, Nem sensörü okuma, takip Alarm kurulumu,'
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 

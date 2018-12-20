@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Main7Activity">
 
     <Button
@@ -27,9 +28,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Muradiye Mah. Celal Bayar Üniversitesi Kampüsü Teknoloji Geliştirme Bölgesi İçi Merkezi Apt.No:22 - 202 YUNUSEMRE / MANİSA      +90 (236) 503 02 54"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -97,14 +98,17 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="wrap_content"
+        android:layout_width="361dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="POSLite Plaka okuma sistemi araç plakalarının okunarak kayıt altına alınması için geliştirilmiştir. Okunan plaka ve araç fotoğrafı plakalar isimli klasöre kaydedilir. Sitelerde ve otoparklarda kullanım için uygundur. "
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toTopOf="@+id/button19"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:layout_constraintVertical_bias="0.0" />

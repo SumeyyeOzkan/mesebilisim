@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Main6Activity">
 
 
@@ -28,9 +29,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Muradiye Mah. Celal Bayar Üniversitesi Kampüsü Teknoloji Geliştirme Bölgesi İçi Merkezi Apt.No:22 - 202 YUNUSEMRE / MANİSA      +90 (236) 503 02 54"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -97,15 +98,18 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
+        android:layout_width="369dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="ONLINE HESAP EKSTRESI TAKİP YAZILIMI  PM distribütörleri için geliştirdiğimiz PM-Banka yazılımı ile direkt olarak Banka Ekstrelerinin aktarılması hizmeti sunulmaktadır.  Bankalar tarafından düzenli olarak ekstrelerin sisteme servis ile aktarılması kullanıcıyı, excel gelen banka ekstrelerinin her defasında programa aktarılması külfetinden kurtarırken aynı zamanda ekstrelerin arşivlenmesi olanağı da sunar.  Kullanıcının kendisi yalnızca istediği tarih aralığında sistemine aktarılmış olan ekstreleri istediği tarih aralığında görüntüleyerek detayları hesap kodlarına göre düzenler ve yevmiye kayıtlarına otomatik olarak aktarır.  HEPSİ BİR ARADA HESAP YÖNETİMİ  Dijital bankacılığın kurallarını yeniden yazan PM-BANKA tüm banka hesaplarınızı bir arada, tek platformda ve aynı anda görüntüleyebilir, raporlayabilir ve takip edebilirsiniz."
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.97" />
 
 </android.support.constraint.ConstraintLayout>
